@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- general styles for the action bar -->
+    <style name="MainActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:backgroundStacked">@color/primary_light</item>
+        <item name="android:backgroundSplit">@color/primary</item>
+
+        <!-- Support library compatibility -->
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+        <item name="background">@color/primary</item>
+        <item name="backgroundStacked">@color/primary_light</item>
+        <item name="backgroundSplit">@color/primary</item>
+    </style>
+
+    <!-- action bar title text -->
+    <style name="TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- action bar tab text -->
+    <style name="TabTextStyle" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!-- recycler view styles -->
+    <style name="RVStyle" parent="Base.V7.Theme.AppCompat.Light">
+
+
+    </style>
+</resources>

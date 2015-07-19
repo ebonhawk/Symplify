@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Symplify</string>
+    <string name="today_view_title">Today</string>
+    <string name="week_view_title">Week</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
