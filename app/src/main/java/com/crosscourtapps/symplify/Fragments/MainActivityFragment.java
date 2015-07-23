@@ -1,10 +1,12 @@
-package com.crosscourtapps.symplify;
+package com.crosscourtapps.symplify.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.crosscourtapps.symplify.R;
 
 
 /**
